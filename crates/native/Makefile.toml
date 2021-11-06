@@ -1,0 +1,4 @@
+[tasks.native]
+script = [
+    "cp -R ../../assets assets && cargo run --bin native"
+]

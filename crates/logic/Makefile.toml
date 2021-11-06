@@ -1,0 +1,4 @@
+[tasks.web]
+script = [
+    "wasm-pack build --release --target web -d $CARGO_MAKE_WORKSPACE_WORKING_DIRECTORY/crates/web/public/pkg && cp -R $CARGO_MAKE_WORKSPACE_WORKING_DIRECTORY/assets/* $CARGO_MAKE_WORKSPACE_WORKING_DIRECTORY/crates/web/public/assets"
+]
